@@ -16,7 +16,7 @@ My name is Kevin. I'm a 26 years old software developer, entrepreneur, and book 
 In the last 10 months, here is what I did:
 
 - Launched the landing page for my next project: [PricingBot](https://www.pricingbot.co)
-- [Shoptolist.com](https://www.shoptolist.com) with my partner [Pierre De Wulf](https://twitter.com/pierredewulf)
+- [Shoptolist.com](https://www.shoptolist.com) with my partner [Pierre De Wulf](https://medium.com/@pierreda)
 - Wrote a [book](https://www.javawebscrapinghandbook.com) about web scraping with Java and sold it 70 times ! 
 - I made some small freelancing gigs
 - Wrote some blog posts on [Medium](https://medium.com/@sahin.kevin)
