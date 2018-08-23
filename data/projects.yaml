@@ -1,10 +1,21 @@
 name: Projects
 source:
   - icon: fa fa-github
-    description: Ei viderer tacimates pro, quem assum ea nam. Veritus omnesque eam te. Et natum mucius tamquam vel, ea dolorem volumus deterruisset nec. Graeci mentitum sea an, eu prima elaboraret est.
+    name: PricingBot
+    description: PricingBot is a price monitoring SaaS for eCommerce and marketplace seller
+    url: https://www.pricingbot.co
 
   - icon: fa fa-github
-    description: An eripuit phaedrum qui, nec facer splendide ex, vel ea assum facilisi convenire. Te his neglegentur consectetuer.
+    name: Java Web Scraping Handbook
+    url: https://www.javawebscrapinghandbook.com
+    description: My book about web scraping with Java
 
   - icon: fa fa-github
-    description: An alii quot tantas eum, doming platonem persecuti mea et, vim perpetua cotidieque delicatissimi in.
+    name: ShopToList
+    url: https://www.shoptolist.com
+    description: ShopToList is a universal wish list, when you find a product you like, put it in ShopToList and get alerts about price changes.
+
+  - icon: fa fa-github
+    name: ksah.in
+    url: https://ksah.in
+    description: My blog about web scraping with Java.
