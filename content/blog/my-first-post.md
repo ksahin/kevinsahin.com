@@ -46,4 +46,5 @@ Here are my goals for the next 12 months:
 - Stop using so many bullet points.
 
 
-You can find me on [twitter](https://twitter.com/@sahinkevin)
+You can find me on [twitter](https://twitter.com/@sahinkevin).
+If you’re interested in receiving blog posts like this regularly you can [subscribe to my newsletter](https://buttondown.email/kevinsahin).
