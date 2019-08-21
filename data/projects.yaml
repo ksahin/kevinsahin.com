@@ -1,6 +1,11 @@
 name: Projects
 source:
   - icon: fa fa-github
+    name: ScrapingNinja
+    description: ScrapingNinja is a web scraping API designed to handle headless browser and rotating proxies.
+    url: https://www.scrapingninja.co
+    
+  - icon: fa fa-github
     name: PricingBot
     description: PricingBot is a price monitoring SaaS for eCommerce and marketplace seller
     url: https://www.pricingbot.co
