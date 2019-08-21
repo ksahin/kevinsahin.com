@@ -2,6 +2,7 @@
 title: "Python Web Scraping 101"
 date: 2019-08-21T16:13:28+02:00
 highlight: true
+canonicalUrl: "https://www.scrapingninja.co/blog/web-scraping-101-with-python"
 ---
 
 
