@@ -9,7 +9,7 @@ canonicalUrl: "https://www.scrapingninja.co/blog/web-scraping-101-with-python"
 
 # Web Scraping 101 with Python
 
-In this post, which can be read as a follow up to our [ultimate web scraping guide](https://www.scrapingninja.co/blog/web-scraping-without-getting-blocked), we will cover almost all the tools Python offers you to web scrape. We will go from the more basic to the most advanced one and will cover the pros and cons of each. Of course, we won't be able to cover all aspect of every tool we discuss, but this post should be enough to have a good idea of which tools does what, and when to use which.
+In this post we will cover almost all the tools Python offers you to web scrape. We will go from the more basic to the most advanced one and will cover the pros and cons of each. Of course, we won't be able to cover all aspect of every tool we discuss, but this post should be enough to have a good idea of which tools does what, and when to use which.
 
 *Note: when I talk about Python in this blog post you should assume that I talk about Python3.* 
 
@@ -310,3 +310,7 @@ Here is a quick recap table of every technology we discuss about in this about. 
 I hope you enjoyed this blog post, it was a quick introduction to the most used Python tools for web scraping. In the next posts we're going to go deeper on each individual tools or topics like XPath, CSS selectors. 
 
 Happy Scraping
+
+---
+
+Originally published on [scrapinginja.co](https://www.scrapingninja.co/blog/web-scraping-101-with-python)
