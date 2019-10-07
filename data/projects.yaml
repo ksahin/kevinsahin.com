@@ -1,9 +1,9 @@
 name: Projects
 source:
   - icon: fa fa-github
-    name: ScrapingNinja
-    description: ScrapingNinja is a web scraping API designed to handle headless browser and rotating proxies.
-    url: https://www.scrapingninja.co
+    name: ScrapingBee
+    description: ScrapingBee is a web scraping API designed to handle headless browser and rotating proxies.
+    url: https://www.scrapingbee.com
     
   - icon: fa fa-github
     name: PricingBot
