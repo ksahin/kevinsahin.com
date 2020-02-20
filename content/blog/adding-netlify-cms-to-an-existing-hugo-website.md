@@ -27,3 +27,75 @@ I look at the ecosystem, and several CMS seems interesting to me:
 * [Forestry](https://forestry.io/) looks really nice but is commercial 
 
 Since I already new about Netlify and the Github repository has a lot of activity, I decided to try their CMS.
+
+## Prerequisites
+
+* A Netlify account
+* A recent version of Hugo (I'm using 0.60)
+* 5 minutes ⏰
+
+## Installation
+
+You need to create an `admin` folder inside your `static/` folder with those two files:
+
+```x
+admin
+ ├ index.html
+ └ config.yml
+```
+
+Copy this code to the `index.html` :
+
+```html
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+</body>
+</html>
+```
+
+Now you need to update the `config.yml` file. I use Github and my deploy branch is master.
+
+```yaml
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Featured Image", name: "image", widget: "image"}
+      - { label: "Description", name: "description", widget: "string"}
+```
+
+
+
+The collections part is the most important one that you will need to adapt. 
+
+Collections represent how our content is structured. Generally you have one or several fields in your Front-matter, in my case title, date, image and description. 
+
+Those fields are assigned a widget type (date will be a datepicker and so on). 
+
+Be careful about the **folder** value, in my case it's "content/blog" because my hugo theme works this way, but the default value for Hugo is "content/posts".
