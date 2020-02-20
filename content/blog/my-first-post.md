@@ -1,7 +1,6 @@
 ---
 title: "Hello, World"
 date: 2018-08-23T16:13:28+02:00
-title: Hello, World
 highlight: true
 ---
 
