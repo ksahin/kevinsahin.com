@@ -1,6 +1,8 @@
 ---
 title: "Hello, World"
 date: 2018-08-23T16:13:28+02:00
+image: "/img/profile_pic_400x400.jpg"
+description: "I made this blog for lots of different reasons. First, I love blogging. It allows me to structure my thoughts, my experiences, and get feedback. I love to receive an email from someone telling me he learned something from one of my posts."
 highlight: true
 ---
 

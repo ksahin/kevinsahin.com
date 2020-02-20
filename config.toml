@@ -11,20 +11,18 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "avatar2.JPG"
+  avatar = "profile_pic_400x400.jpg"
   author = "Kevin Sahin"
-  description = "Kevin Sahin personnal blog"
+  description = "I talk about running about running a bootstrapped software business and tech. "
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
   custom_js  = []
 
 [params.social]
-  Github        = "ksahin"
   Email         = "sahin.kevin@gmail.com"
   Twitter       = "sahinkevin"
   LinkedIn      = "kevin-sahin-89700586"
-  Medium        = "sahin.kevin"
 
 ## Main Menu
 [[menu.main]]
