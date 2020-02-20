@@ -2,6 +2,8 @@
 title: "Python Web Scraping 101"
 date: 2019-08-21T16:13:28+02:00
 highlight: true
+image: "/img/profile_pic_400x400.jpg"
+description: "In this post we will cover almost all the tools Python offers you to web scrape. We will go from the more basic to the most advanced one and will cover the pros and cons of each."
 canonicalUrl: "https://www.scrapingninja.co/blog/web-scraping-101-with-python"
 ---
 
