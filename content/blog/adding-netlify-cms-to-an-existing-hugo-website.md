@@ -6,6 +6,8 @@ description: >-
   In this post we are going to see how to add Netlify-CMS to an existing Hugo
   website.
 ---
+![Netlify CMS](/images/uploads/netlify_cms.jpg)
+
 This blog runs on Hugo. 
 
 Hugo is a great piece of software, it's insanely fast, has a great documentation, and a great ecosystem.
