@@ -6,8 +6,6 @@ description: >-
   In this post we are going to see how to add Netlify-CMS to an existing Hugo
   website.
 ---
-
-
 This blog runs on Hugo. 
 
 Hugo is a great piece of software, it's insanely fast, has a great documentation, and a great ecosystem.
@@ -121,6 +119,8 @@ You need to log into your Netlify account to set up the identity service (to con
 Now if you go to your site/admin/: 
 
 ![Netlify CMS authentication](/images/uploads/netlify-cms-auth.png)
+
+*Keep in mind that each time you create a draft, Netlify CMS will create a new branch. The branch will be merged into master when you publish.* 
 
 And voilà! 
 
