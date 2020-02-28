@@ -129,3 +129,5 @@ I'm going to test this new setup for a while and I'll update the post with my fe
 I hope this blog post was helpful 😀 
 
 If you liked it don't hesitate to [follow me on Twitter for updates](https://www.twitter.com/sahinkevin).
+
+PS: *In the last 6 months I've been working on https://www.scrapingbee.com/ with my partner Pierre, I just release a new blog post on our blog about the different [web scraping tools](https://www.scrapingbee.com/blog/web-scraping-tools/) available on the market, check this out!*  
